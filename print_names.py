@@ -1,3 +1,6 @@
-print("Daniyar")
-print("Bekzhan Beka ")
-print("Zhanibek Dzhoni")
+import sys
+
+if len(sys.argv) > 1:
+    print("Daniyar:", sys.argv[1])
+else:
+    print("No name provided")
